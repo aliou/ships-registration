@@ -10,7 +10,7 @@ Run the available setup script and migrate the database:
 
 ## Running
 
-Run the server with the provided script and open go to <http://localhost:220221>:
+Run the server with the provided script and open go to <http://localhost:22021>:
 
 ```sh
 ./bin/start
