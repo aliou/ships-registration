@@ -29,5 +29,8 @@ module ShipsRegistration
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Include custom paths in autoload paths.
+    config.autoload_paths += %W[#{config.root}/app/serializers]
   end
 end
