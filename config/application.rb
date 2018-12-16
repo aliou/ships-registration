@@ -32,5 +32,8 @@ module ShipsRegistration
 
     # Include custom paths in autoload paths.
     config.autoload_paths += %W[#{config.root}/app/serializers]
+
+    # Use the SQL format for the structure.
+    config.active_record.schema_format = :sql
   end
 end
