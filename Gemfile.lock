@@ -33,8 +33,8 @@ GEM
       activemodel (= 5.2.0)
       activesupport (= 5.2.0)
       arel (>= 9.0)
-    activerecord_sane_schema_dumper (1.0)
-      rails (>= 5, < 6)
+    activerecord-clean-db-structure (0.2.6)
+      activerecord (>= 4.2)
     activestorage (5.2.0)
       actionpack (= 5.2.0)
       activerecord (= 5.2.0)
@@ -146,7 +146,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord_sane_schema_dumper
+  activerecord-clean-db-structure
   bootsnap (>= 1.1.0)
   fast_jsonapi (~> 1.1.1)
   listen (>= 3.0.5, < 3.2)
